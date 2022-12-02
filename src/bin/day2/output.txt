@@ -1,0 +1,30 @@
+dahlbaek@Jonass-MacBook-Pro day2 % cargo run --bin day2 
+   Compiling solutions v0.1.0 (/Users/dahlbaek/AoC/2022/solutions)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `/Users/dahlbaek/AoC/2022/solutions/target/debug/day2`
+15392
+dahlbaek@Jonass-MacBook-Pro day2 % cargo test --bin day2
+    Finished test [unoptimized + debuginfo] target(s) in 0.00s
+     Running unittests src/bin/day2/main.rs (/Users/dahlbaek/AoC/2022/solutions/target/debug/deps/day2-234eddc518d0b75d)
+
+running 1 test
+test tests::it_works_1 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+dahlbaek@Jonass-MacBook-Pro day2 % cargo test --bin day2
+   Compiling solutions v0.1.0 (/Users/dahlbaek/AoC/2022/solutions)
+    Finished test [unoptimized + debuginfo] target(s) in 0.12s
+     Running unittests src/bin/day2/main.rs (/Users/dahlbaek/AoC/2022/solutions/target/debug/deps/day2-234eddc518d0b75d)
+
+running 1 test
+test tests::it_works_1 ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+dahlbaek@Jonass-MacBook-Pro day2 % cargo run --bin day2 
+   Compiling solutions v0.1.0 (/Users/dahlbaek/AoC/2022/solutions)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `/Users/dahlbaek/AoC/2022/solutions/target/debug/day2`
+13625
+dahlbaek@Jonass-MacBook-Pro day2 %   
