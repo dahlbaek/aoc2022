@@ -1,11 +1,11 @@
 use std::collections::HashSet;
 
-fn get_priority(c: u8) -> u64 {
-    (match c {
-        65..=90 => c - 38,
-        97..=122 => c - 96,
-        _ => unreachable!(),
-    }) as u64
+fn get_priority(b: u8) -> u64 {
+    u64::from(match b {
+        65..=90 => b - 38,
+        97..=122 => b - 96,
+        _ => panic!("Found unrecognized byte {}", b),
+    })
 }
 
 fn find_1(input: &str) -> u64 {
