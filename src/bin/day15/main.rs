@@ -61,7 +61,7 @@ fn find2(input: &str, y_range: RangeInclusive<i64>, x_top: i64) -> i64 {
             .filter(|cov| cov.0 <= cov.1)
             .collect::<Vec<_>>();
         excludeds.sort_unstable();
-        let mut top = 0;
+        let mut top = -1;
         for excluded in excludeds {
             if excluded.0 > top + 1 {
                 break;
